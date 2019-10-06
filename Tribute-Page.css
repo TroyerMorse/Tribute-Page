@@ -1,0 +1,107 @@
+#title {
+  color: #7f388a;
+  text-align: center;
+  font-size: 100px;
+  top: 100px;
+}
+
+#main {
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #7f388a;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+#img-div {
+  text-align: center;
+  max-width: none;
+  background-color: #dac1e3;
+  padding: 10px;
+  background-size:auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#image {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#tribute-info {
+  text-align: center;
+  max-width: none;
+  width: 1000px;
+  position: relative;
+  left: 200px;
+}
+
+#list {
+  text-align: left;
+  max-width: none;
+  position: relative;
+  width: 1000px;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 1.6;
+}
+
+.row {
+  content: "";
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-gap: 75px;
+  clear: both;
+  justify-content: center;
+  text-align: center;
+}
+
+.howard {
+  font-size: 16px;
+  font-family:fantasy;
+  text-align: center;
+  border-style: ridge;
+  border-width: thick;
+  border-color:#9e00d6;
+  background-color: #dac1e3;
+
+}
+.men{
+  width: 200px;
+  height: auto;
+
+}
+
+.men-explain {
+  text-align: center;
+
+}
+
+#list-title {
+  text-align: center;
+  font-size: 32px;
+  color: #7f388a;
+}
+
+#link-to-survey {
+  text-align: center;
+  Background-color: #dac1e3;
+  color: #7f388a;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #7f388a;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+#list-thing {
+  background-color:#dac1e3;
+
+}

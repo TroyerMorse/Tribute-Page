@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Survey-page.css"</link>
+</head>
+
+<header>
+  <h1>Survey Form</h1>
+</header>
+
+<body>
+  <form id="container">
+    <h2>What would you like more information about?</h2>
+    <div class="row">
+      <div class="label">
+        <p>Name: </p>
+      </div>
+      <div class="input">
+        <input type="text" placeholder="Enter Your Name" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">
+        <p>Email: </P>
+      </div>
+      <div class="input">
+        <input type="text" placeholder="Enter Your Email" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">
+        <p>Age: </P>
+      </div>
+      <div class="input">
+        <input type="number" placeholder="Enter Your Age" min="1" max="125" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">
+        <p>Which subject would you like to see more of?</p>
+      </div>
+      <div class="input">
+        <select class="dropdown">
+          <option disabled id="disabled">Select an Option</option>
+          <option class="drop-one">World War 2</option>
+          <option class="drop-one">Physics</option>
+          <option class="drop-one">Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="label">
+        <p>How have you liked the information?</p>
+      </div>
+      <div class="row">
+        <ul style="list-style" class="the-list">
+          <label>Loved it!
+            <input type="radio" value="1">
+          </label>
+          <label>Liked it!
+            <input type="radio" value="1">
+          </label>
+          <label>Eh!
+            <input type="radio" value="1">
+          </label>
+          <label>Disliked it!
+            <input type="radio" value="1">
+          </label>
+          <label>Hated it!
+            <input type="radio" value="1">
+          </label>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="label">
+          <p>What pages would you like to see next?</p>
+        </div>
+        <ul class="checkbox">
+          <li class="items">
+            <label>
+              <input class="check" type="checkbox" value="1">
+                "Electro-Magnetism"
+            </label>
+          </li>
+          <li class="items">
+            <label>
+              <input class="check" type="checkbox" value="1">
+                "Orbital Paths"
+            </label>
+          </li>
+          <li class="items">
+            <label>
+              <input class="check" type="checkbox" value="1">
+                "Defense of Bastogne"
+            </label>
+          </li>
+          <li class="items">
+            <label>
+              <input class="check" type="checkbox" value="1">
+                "Battle of Carentan"
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="label">
+          <p>Additional Comments:</p>
+        </div>
+        <div class="addcomm">
+          <textarea class="comm" placeholder="Additional Comments Here" style="height:50px;resize:vertical;"></textarea>
+        </div>
+      </div>
+      <br>
+      <button class="submit">Submit</button>
+    </form>
