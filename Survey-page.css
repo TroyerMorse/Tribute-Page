@@ -1,0 +1,80 @@
+header {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+body {
+  background-color: #251a6e;
+}
+
+#container {
+  text-align: center;
+  background-color: #8f1515;
+  background-size: contain;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+  font-family:sans-serif;
+}
+
+.row {
+  border-color: black;
+  border-style: dotted;
+  border-width: 1px;
+  margin: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  text-align: right;
+  font-size: 24px;
+  color: white;
+}
+
+.the-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.checkbox {
+  list-style: none;
+  text-align: left;
+}
+
+.addcomm {
+  padding-left: 10px;
+}
+
+.input {
+  padding-left: 10px;
+}
+
+.the-lista {
+  color: white;
+}
+
+.items {
+  color: white;
+}
+
+.submit {
+  margin-bottom: 10px;
+  border-style:inset;
+  border-radius: 3px;
+  border-color: white;
+  border-width: 5px;
+  
+  }
+}
